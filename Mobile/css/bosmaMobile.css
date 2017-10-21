@@ -41,6 +41,7 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
 /*轮播图*/
 .slide-bar{
     width: 100%;
+    text-align: center;
 }
 /*.slide-bar a{*/
     /*display: inline-block;*/
@@ -84,7 +85,7 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
 /*广告图*/
 .advertising{
     width: 100%;
-    height: 150px;
+
     display: flex;
     display: -webkit-flex;
 
@@ -95,12 +96,12 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
     box-sizing: border-box;
 }
 .advertising a{
-    flex: auto;
+    /*flex: auto;*/
     display: inline-block;
     text-align: center;
-
+    height: 100%;
     /*border-right: #ebebeb 1px solid;*/
-    /*line-height: 25px;*/
+
 
 }
 /*产品列表*/
@@ -117,6 +118,7 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
 }
 .product-box{
     width: 100%;
+
     display: flex;
     display: -webkit-flex;
     margin: 5px 0;
@@ -125,9 +127,10 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
 }
 .product-li{
     width: 50%;
-    height: 195px;
+    height: auto;
+    /*max-height: 300px;*/
     box-sizing: border-box;
-    padding: 0 10px 0;
+    padding: 0 10px 10%;
     text-align: center;
     flex: auto;
     border-right:#ebebeb 1px solid;
@@ -137,9 +140,11 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
     border-right:0;
 }
 .product-li img{
+    margin: 0 auto;
     display: block;
-    width: 159px;
-    height: 138px;
+
+    width: 100%;
+
 }
 /*页脚*/
 .footer{
@@ -151,7 +156,7 @@ body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helveti
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    padding: 10px 15px;
+    padding: 10px 9%;
     margin-bottom: 15px;
     border-bottom: #ebebeb 1px solid;
 
@@ -182,5 +187,28 @@ button:focus{
     right: 5px;
     bottom: 120px;
 
-    /*visibility: hidden;*/
+
+}
+/*导航栏滑动块*/
+.nav-downContent{
+    background:#fff;
+    width: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 51px;
+    z-index: 999;
+    display: none;
+
+}
+.nav-downContent a{
+    display: block;
+    box-sizing: border-box;
+    background:url("../images/n_list.png") no-repeat right;
+    text-align: left;
+    margin: 0 25px;
+    line-height: 50px;
+    border-top: 1px solid #ddd;
+
+    font-size: 18px;
 }

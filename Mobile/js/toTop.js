@@ -1,9 +1,7 @@
 // JavaScript Document
-alert("has js!!");
 $(function(){
 
-
-	let windowHeight = $(window).height();
+	var windowHeight = $(window).height()/2;
 	$(".to-top").hide();
 
 	$(window).scroll(function(){
