@@ -1,0 +1,175 @@
+*{	padding:0;	margin:0;	border:0;	text-align: left;	font-style: normal;	-webkit-tap-highlight-color:rgba(0,0,0,0);	/*禁止链接高亮*/ 		-webkit-touch-callout:none;					/*禁止链接长按弹出选项菜单*/}
+a:link{	-webkit-tap-highlight-color:rgba(0,0,0,0);	/*禁止链接高亮*/ 		-webkit-touch-callout:none;					/*禁止链接长按弹出选项菜单*/ }
+img { 	-webkit-touch-callout:none;	vertical-align:middle;	border:0;	-ms-interpolation-mode:bicubic;/*禁止图片长按弹出选项菜单*/  max-width:100%;}
+input,textarea{	-moz-border-radius:0px;	-webkit-border-radius:0px;	border-radius:0px;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+address, cite, dfn, em, var, i {font-style:normal;}
+code, kbd, pre, samp {	font-family:courier new, courier, monospace;}
+form {	display:inline;}
+small {	font-size:12px;}
+ul, ol {	list-style:none;}
+a {	text-decoration:none;	color:#767575;}
+a:hover, a:active, a:focus {	color:#767575;	text-decoration:none;}
+a:active {	color:#767575;}
+
+button, input, select, textarea {	font-size:100%;	vertical-align:middle;	outline:none;	-webkit-appearance:none;}
+textarea {	resize:none;}
+
+html,body{height:100%;min-height:350px;font-size: 62.5%;}
+body {margin:0 auto; padding:0;font-family:"\5FAE\8F6F\96C5\9ED1",Arial, Helvetica, sans-serif; line-height:20px; max-width:640px; background:#f5f5f5; font-size:13px; color:#767575; position:relative;}
+header{ height:50px; background:#272b2e; border-bottom:#03a0e3 1px solid; overflow:hidden;}
+.logo{ width:84px; height:18px; margin:15px auto 0;}
+.nav_btn{ width:22px; height:15px; background:url("../images/nav_btn.jpg")/*tpa=http://www.bosma.com.cn/Mobile/images/nav_btn.jpg*/ no-repeat; position:absolute; right:18px; top:18px; }
+nav{ background:#fff; width:100%; position:absolute; top:51px; left:0; display:none; z-index:99;}
+/*.nav_list{ padding-bottom:222px;}*/
+.nav_list{ padding-bottom:5px;}
+
+.nav_list li{ height:50px; border-bottom:#ebebeb 1px solid;}
+.nav_list li a{ display:block; font-size:16px; line-height:50px; margin:0 25px 0 20px;background:#fff url("../images/n_list.png")/*tpa=http://www.bosma.com.cn/Mobile/images/n_list.png*/ no-repeat right; color:#3b3b3b;}
+.category,.advertisement,.product{ margin-bottom:10px;background:#fff;}
+.category{ height:40px; padding-top:10px;}
+.category a{ float:left; width:50%; height:30px; line-height:30px; border-right:#ebebeb 1px solid; text-align:center; box-sizing:border-box; color:#231815; font-size:18px; font-weight:bolder;}
+.category a span{ display:inline-block; width:23px; height:24px; margin-right:10px;}
+.category a.noborder_r{ border-right:none;}
+.advertisement{ padding:20px 10px; overflow:hidden;}
+.a_left,.a_right{ width:49.1%; float:left;}
+.a_right{ float:right;}
+.advertisement a{ display:block;}
+.a_left .a_left_b{ margin-bottom:3.5%;}
+.product_tit{ height:50px; line-height:50px; border-bottom:#ebebeb 1px solid; background:url("../images/pro_tb.png")/*tpa=http://www.bosma.com.cn/Mobile/images/pro_tb.png*/ no-repeat 10px; padding-left:35px; color:#231815; font-size:18px; font-weight:bolder;}
+.product_list{ overflow:hidden;}
+.product_list li{ width:50%; box-sizing:border-box; float:left;border-bottom:#ebebeb 1px solid; border-right:#ebebeb 1px solid; height:195px;}
+.product_list li a{ display:block; text-align:center; padding:0 10px;}
+.product_list li:nth-child(2n){border-right:#fff 1px solid;}
+.product_list li p{ text-align:center;}
+.details_info{ background:#fff; padding:35px 10px 0;margin-bottom:10px;}
+.model_list{padding:30px 0 35px;}
+.di_tit,.model_list h2{ font-size:18px; color:#000; font-weight:normal; margin-bottom:10px;}
+.model_list h2{ font-size:14px; margin-bottom:20px;}
+.model_list ul{ overflow:hidden; width:91%; margin:0 auto;}
+.model_list ul li{ width:48%; height:35px; line-height:35px; text-align:center; background:#fff; border:#cacaca 1px solid; border-radius:5px; margin-bottom:12px; box-sizing:border-box;}
+.model_list ul li:nth-child(odd){ float:left;}
+.model_list ul li:nth-child(even){ float:right;}
+.model_list ul li.nev{ border:#00a0e9 1px solid;}
+.shopping{ overflow:hidden; margin-top:5px;}
+.shopping a{ float:left; width:57px; height:30px; line-height:30px; padding-left:20px; margin-right:30px;}
+.shopping a:nth-child(1){ background:url("../images/d1.png")/*tpa=http://www.bosma.com.cn/Mobile/images/d1.png*/ no-repeat left;}
+.shopping a:nth-child(2){ background:url("../images/d2.png")/*tpa=http://www.bosma.com.cn/Mobile/images/d2.png*/ no-repeat left;}
+.details{ background:#fff; padding:35px 10px 35px;margin-bottom:10px; border-bottom:#e7e7e7 1px solid;}
+.logo_icon{ height:50px; line-height:50px; text-align:center;}
+.logo_icon img{ margin-right:20px;}
+.logo_icon img:last-child{ margin-right:0;}
+.series{ line-height:25px; text-align:center; color:#333;}
+.series span{ padding-right:10px; border-right:#c7c7c7 1px solid; margin-right:5px; display:inline-block; height:13px; line-height:13px;}
+.series img{ margin-top:-4px;}
+.tab_con_box{ display:none;}
+.about_nav{ height:40px; line-height:40px; background:#fff; border-bottom:#ebebeb 1px solid; margin-bottom:10px;}
+.about_nav li{ text-align:center; font-size:14px; float:left; width:33.33%;}
+.about_nav li a{ color:#272b2e;}
+.about_nav li.nev{border-bottom:2px #00a0e9 solid; height:38px;}
+.about_nav li.nev a{ color:#00a0e9; }
+.other{ text-align:center;}
+.other li{display:inline-block; float:none;}
+.navinput { width:71%; margin:10px auto; position:relative;}
+.navinput p {display: block; text-align: left; border-radius:1px; line-height:35px;text-indent:20px;}
+.navinput .set {background:#fff url("../images/down.png")/*tpa=http://www.bosma.com.cn/Mobile/images/down.png*/ no-repeat 93%;}
+.navinput .select{ background:#fff url("../images/up.png")/*tpa=http://www.bosma.com.cn/Mobile/images/up.png*/ no-repeat 93%;}
+.navinput .new { display: none; position: absolute; top:36px; width:100%; z-index: 999; background:#fff; box-shadow:3px 3px 10px rgba(204,204,204,0.5); border-radius:1px; overflow:hidden; padding-bottom:20px;}
+.navinput ul li { float:left; width:25%; box-sizing:border-box; padding:20px 10px 0; text-align:center;}
+.wrap1,.wrap2{  background:#fff; border-bottom:#ebebeb 1px solid; margin-bottom:10px; padding:20px 10px;}
+.wrap2{ padding:0;}
+.a_logo{ text-align:center; margin-bottom:20px;}
+.video{ width:88.7%; margin:0 auto;}
+.about_table{ width:100%; font-size:12px; border-collapse:collapse}
+.about_table tr{border-bottom:#ebebeb 1px solid;}
+.about_table tr.iftr{ background:#f5f5f5; display:none;}
+.retract{ background:#00a0e9; width:70px; height:20px; position:absolute; right:20px; top:20px; color:#fff; text-align:center; line-height:20px;}
+.about_table tr.iftr td{ padding:15px;}
+.about_table td,.about_table th{ color:#727171; text-align:center; height:50px;}
+.about_table th{ color:#454545;}
+.see{ width:11px; height:8px; display:block; background:url("../images/down.jpg")/*tpa=http://www.bosma.com.cn/Mobile/images/down.jpg*/ no-repeat;}
+.see2{background:url("../images/upward.jpg")/*tpa=http://www.bosma.com.cn/Mobile/images/upward.jpg*/ no-repeat;}
+.i_tit{ color:#464646; font-weight:bolder;}
+.paging{ background:#f3f3f3; line-height:35px; margin-top:15px; overflow:hidden; width:95%; margin:40px auto; font-size:12px;}
+.paging_prev,.paging_next{ float:left; width:20%; height:35px; line-height:35px; background:url("../images/p.png")/*tpa=http://www.bosma.com.cn/Mobile/images/p.png*/ no-repeat left; padding-left:5px; text-align:center; border-right:#dadada 1px solid; box-sizing:border-box; background-origin:content-box;}
+.paging_next{background:url("../images/n.png")/*tpa=http://www.bosma.com.cn/Mobile/images/n.png*/ no-repeat right; border-right:none; border-left:#dadada 1px solid; padding-right:5px; background-origin:content-box; padding-left:0;}
+.paging_prev a,.paging_next a{ color:#000;}
+.paging_list{ width:60%; float:left; height:35px; line-height:35px;box-sizing:border-box;}
+.paging_list a{ float:left; width:20%; border-right:#dadada 1px solid; text-align:center;box-sizing:border-box;}
+.paging_list a:last-child{ border-right:none;}
+.paging_list a.nev{background:#00a0e9; color:#fff;}
+.circuit_diagram{ width:97.65%; padding:20px 0 10px; margin:0 auto;}
+.contact_info li{padding:30px 10px 30px 30px; border-bottom:#e5e5e5 1px solid;}
+.c1{ color:#000; background:url("../images/c1.png")/*tpa=http://www.bosma.com.cn/Mobile/images/c1.png*/ no-repeat 10px 30px;}
+.c2{ background:url("../images/c2.png")/*tpa=http://www.bosma.com.cn/Mobile/images/c2.png*/ no-repeat 10px 33px;}
+.c3{ background:url("../images/c3.png")/*tpa=http://www.bosma.com.cn/Mobile/images/c3.png*/ no-repeat 10px 33px;}
+.c_tit{color:#000; font-size:16px; margin-bottom:7px;}
+.n_tit{ font-size:18px; color:#00a0e9; margin-bottom:15px;}
+.n_tit strong{ color:#000; margin-right:10px;}
+.additional li{ padding-left:10px;}
+.n_logo{ overflow:hidden; padding:20px 15px 0;}
+.n_logo li{ width:50%; float:left; box-sizing:border-box; text-align:center; padding:0 15px 20px;}
+.as_tit{ font-size:18px; color:#000; font-weight:normal; text-align:center; margin:10px;}
+.news_list li,.news_details{ padding:25px 10px; border-bottom:#e5e5e5 1px solid;}
+.news_list li img,.news_details img{ text-align:center; display:block; margin:0 auto 20px;}
+.news_list li h1,.news_details h1{ font-size:18px; margin:0 0 10px; line-height:1.3; font-weight:normal;}
+.news_list li h1 a,.news_details h1{ color:#000;}
+.news_details h1{ margin:0; text-align:center;}
+.news_list li p{ margin-bottom:10px;}
+.ct{margin-bottom:20px; text-align:center;}
+.info p{ text-align:center;}
+.pn{ padding:20px 10px;}
+.pn a{ display:block; margin-bottom:5px;}
+footer{ background:#fafafa; padding:10px;}
+.footer_list{ height:50px; line-height:50px; border-bottom:#e7e7e7 1px solid; text-align:center;}
+.footer_list li{ display:inline-block; margin-right:20px;}
+.footer_list li:last-child{margin-right:0;}
+.tel{margin-top:20px; color:#818384}
+.tel h1{font-size:18px; color:#5d5f61; text-align:center;}
+.tel p{ text-align:center; margin-top:10px;}
+.copyright{ margin:15px 0 10px; text-align:center; font-size:12px; line-height:18px;}
+.follow{ position:relative;}
+.follow_con{ position:absolute; top:40px; left:-10px; background:#fff; width:70px; display:none;}
+.follow_con p{line-height:30px; text-align:center;}
+.to_top{ width:55px; height:55px; background:url("../images/to_top.png")/*tpa=http://www.bosma.com.cn/Mobile/images/to_top.png*/ no-repeat; position:fixed; right:0;
+bottom:90px; display:none;}
+
+/*20160817*/
+.details_con img,.news_details img{ max-width:100%; height:auto;}
+
+/*txt*/
+.yahei{ font-family:"\5FAE\8F6F\96C5\9ED1";} 
+.song{font-family:"\5B8B\4F53";}
+.f14{ font-size:14px;}
+.fd{ display:block; clear:both; overflow:hidden;}
+.red{ color:#d60903;}
+.mar_tb{ margin:35px auto 45px;}
+.mart20{ margin-top:20px;}
+.mart7{ margin-top:7px;}
+.mart40{ margin-top:40px;}
+.mart80{ margin-top:80px;}
+.marb40{ margin-bottom:40px;}
+.marb20{ margin-bottom:20px;}
+.fl{ float:left;}
+.fr{ float:right;}
+.ps{ position:relative;}
+.noborder{ border:none;}
+
+@media only screen and (min-width: 390px) and (max-width: 450px){
+	.product_list li{ height:230px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 450px){
+	.model_list ul{ width:100%; font-size:12px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 350px){
+	.model_list ul li{ width:49.5%;}
+}
+@media only screen and (min-width: 451px) and (max-width: 500px){
+	.product_list li{ height:250px;}
+}
+@media only screen and (min-width: 501px) and (max-width: 550px){
+	.product_list li{ height:270px;}
+}
+@media only screen and (min-width: 551px){
+	.product_list li{ height:300px;}
+}
